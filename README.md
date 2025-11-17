@@ -287,7 +287,7 @@ print(f"Дальность полета: {chars_ideal['max_range']:.2f} м")
 print(f"Максимальная высота: {chars_ideal['max_height']:.2f} м")
 print(f"Конечная скорость: {chars_ideal['final_speed']:.2f} м/с")
 
-print(f"\nСнижение дальности: {((chars_ideal['max_range'] - chars_real['max_range'])/chars_ideal['max_range']*100):.1f}%")
+print(f"\nСнижение дальности: {((chars_ideal['max_range'] - chars_real['max_range'])/chars_ideal['max_range']*100):.1f}%")```
 
 ##Результаты и анализ
 Сравнительный анализ траекторий
